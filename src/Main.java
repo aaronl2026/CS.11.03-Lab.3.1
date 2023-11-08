@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static String modulo(){
         Scanner yesorno = new Scanner(System.in);
-        System.out.println("You forget to take water with you on the hike. There is a pond nearby with seemingly fresh water as it is clear. The riddle says: I add 6 and 11 and get...? QUiCK! TIME IS RUNNING OUT. Type in the correct unit digit and you win your clean water!");
+        System.out.println("You forget to take water with you on the hike. There is a pond nearby with seemingly fresh water as it is clear. The riddle says: I add 6 to 11 and get...? QUiCK! TIME IS RUNNING OUT. Type in the correct unit digit and you win your clean water!");
         int usermodulo = yesorno.nextInt();
         if (usermodulo%10 == 5) return "Great!" ;
         System.out.println("You died of dehydration.");
@@ -82,7 +82,7 @@ public class Main {
     }
     public static void main(String[] args) {
         System.out.println("Welcome to the hiking game! You are an ambitious adventurer on a treacherous hike. However, on the way, you find out that the hike is much harder than you presumed it would be. You faced many challenges, and cannot go back anymore. You know theres 10 more obstacles to the finish line and you have to finish them to survive or else wait for impending doom... But I'm sure you can make it!");
-        System.out.println("Rules of the game:\nYou cannot buy your way out of the game. You will encounter riddles and problems and should you not choose to pay money to skip, you need to get the riddles right in order to survive. Good luck and have fun.");
+        System.out.println("Rules of the game:\nYou cannot buy your way out of the game. You will encounter riddles and problems, you need to get the riddles right in order to survive. Good luck and have fun.");
         modulo();
         System.out.println("You got water yey... Continue on the journey of limitless discovery!");
         System.out.println("Hey! This is just for fun. Plug in two single digit numbers.");
